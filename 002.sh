@@ -5,7 +5,6 @@ echo 'hello world'	#这是一个注释
 a=12			#shell是一种弱类型语言
 a=abcdefs
 a=`cat 001.sh`		#命令替换符, a 取最后一次操作的值
-a=$a:a			#连接操作
 echo $a
 
 b=1
@@ -38,16 +37,3 @@ echo $var1
 var3=0
 read var3
 echo $var3
-
-str="abcdefghijklmnopqrstuvwxyz"
-echo ${#str}
-echo ${str:0}
-echo ${str:1}
-echo ${str:2:4}
-#字符串剪切
-name=hello_fq_1
-echo ${name}
-echo ${name#*_}
-echo ${name##*_}
-echo ${name%_*}
-echo ${name%%_*}
