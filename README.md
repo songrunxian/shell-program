@@ -23,4 +23,9 @@ In this repository for my learning about shell programming
 ---------------------------------------------------------
   
 006.sh: 数组操作  
-
+  
+---------------------------------------------------------  
+  
+d:shell-pro_prac:  
+		001.call_name.sh	//随机点名程序  
+		
