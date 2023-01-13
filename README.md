@@ -28,7 +28,7 @@ In this repository for my learning about shell programming
   
 d:shell-pro_prac:  
   
-		001.call_name.sh	//随机点名程序  
+                001.call_name.sh	//随机点名程序  
   
                 002.sum_of_prime_num.sh //0~1000内素数和  
 		
