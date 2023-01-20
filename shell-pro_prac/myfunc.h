@@ -1,0 +1,1 @@
+int beishu(int, int);
