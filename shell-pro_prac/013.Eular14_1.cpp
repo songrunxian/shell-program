@@ -19,14 +19,14 @@ int main() {
 }
 ll jisuan (ll num) {
 	if(num == 1) {
-		//printf("%lld\n", num);
+//		printf("%lld\n", num);
 		return 1;
 	}
-	if(!(num % 2)) {
-		//printf("%lld ", num);
-		return 1 + jisuan(num/2);
+	if(!(num & 1)) {
+//		printf("%lld ", num);
+		return 1 + jisuan(num>>1);
 	} else {
-		//printf("%lld ", num);
+//		printf("%lld ", num);
 		return 1 + jisuan(3*num + 1);
 	}
 }
